@@ -12,7 +12,7 @@ import { ToastContainer } from "react-toastify";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/water-tracker-frontend">
+    <BrowserRouter basename="/fs-87-react-node-AnastasiyaNK">
       <Provider store={store}>
         <PersistGate persistor={persistor}>
           <App />
